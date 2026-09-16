@@ -17,16 +17,13 @@
 
 **Office Hours Schedule**
 
-| Staff Member | Day       | Time                 | Location                     |
-|--------------|-----------|----------------------|-------------------------------|
-| Ethan        | Monday    | 2:00 PM – 3:00 PM    | Tyler Hall (Tyler 3rd Floor) |
-| Mike         | Tuesday   | 2:45 PM – 3:45 PM    | Tyler 132                    |
-| Christiana   | Wednesday | 12:00 PM – 2:00 PM   | Tyler Hall (Tyler 3rd Floor) |
-| Ethan        | Wednesday | 2:00 PM – 3:00 PM    | Tyler Hall (Tyler 3rd Floor) |
-| Ardenis      | Wednesday | 5:00 PM – 6:00 PM    | Tyler Hall (Tyler 3rd Floor) |
-| Christiana   | Thursday  | 3:00 PM – 4:00 PM    | Tyler Hall (Tyler 3rd Floor) |
-| Ardenis      | Thursday  | 4:00 PM – 6:00 PM    | Tyler Hall (Tyler 3rd Floor) |
-| Ethan        | Friday    | 10:30 AM – 11:30 AM  | Tyler Hall (Tyler 3rd Floor) |
+| Day | Staff Member |  Time |Location |
+| --- | --- | --- | --- |
+|Monday |   Ethan |   2:00p - 3:00p | Tyler Hall (Tyler 3rd Floor) |
+|Tuesday |  Mike |  2:45p - 3:45p | Tyler 132 |
+|Wednesday   |  Christiana <br> Ethan <br> Ardenis | 12:00p - 2:00p <br> 2:00p - 3:00p <br> 5:00p - 6:00p | Tyler Hall (Tyler 3rd Floor) <br> Tyler Hall (Tyler 3rd Floor) <br> Tyler Hall (Tyler 3rd Floor) |
+|Thursday   |  Christiana <br> Ardenis | 3:00p - 4:00p <br> 4:00p - 6:00p | Tyler Hall (Tyler 3rd Floor) <br> Tyler Hall (Tyler 3rd Floor) |
+|Friday    |   Ethan |  10:30a - 11:30a | Tyler Hall (Tyler 3rd Floor) |
 
 
 **Lab Schedule** *(begins Week 1)*
