@@ -11,18 +11,22 @@
 
 | TA           |
 |--------------|
-| Ethan        |
 | Ardenis      |
 | Christiana   |
+| Ethan        |
 
-**Office Hours Schedule** - TBD; posted once finalized
+**Office Hours Schedule**
 
-| Staff Member | Day | Time | Location |
-|--------------|-----|------|----------|
-| Mike         | TBD | TBD  | TBD      |
-| Ethan        | TBD | TBD  | TBD      |
-| Ardenis      | TBD | TBD  | TBD      |
-| Christiana   | TBD | TBD  | TBD      |
+| Staff Member | Day       | Time                 | Location                     |
+|--------------|-----------|----------------------|-------------------------------|
+| Ethan        | Monday    | 2:00 PM – 3:00 PM    | Tyler Hall (Tyler 3rd Floor) |
+| Mike         | Tuesday   | 2:45 PM – 3:45 PM    | Tyler 132                    |
+| Christiana   | Wednesday | 12:00 PM – 2:00 PM   | Tyler Hall (Tyler 3rd Floor) |
+| Ethan        | Wednesday | 2:00 PM – 3:00 PM    | Tyler Hall (Tyler 3rd Floor) |
+| Ardenis      | Wednesday | 5:00 PM – 6:00 PM    | Tyler Hall (Tyler 3rd Floor) |
+| Christiana   | Thursday  | 3:00 PM – 4:00 PM    | Tyler Hall (Tyler 3rd Floor) |
+| Ardenis      | Thursday  | 4:00 PM – 6:00 PM    | Tyler Hall (Tyler 3rd Floor) |
+| Ethan        | Friday    | 10:30 AM – 11:30 AM  | Tyler Hall (Tyler 3rd Floor) |
 
 
 **Lab Schedule** *(begins Week 1)*
