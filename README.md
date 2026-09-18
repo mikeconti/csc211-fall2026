@@ -9,11 +9,9 @@
 
 **Teaching Assistants**
 
-| TA           |
-|--------------|
-| Ardenis      |
-| Christiana   |
-| Ethan        |
+* Ardenis
+* Christiana
+* Ethan
 
 **Office Hours Schedule**
 
@@ -83,6 +81,8 @@ You are free to use any IDE for developing your programming assignments and work
 
 Exams are closed-book and held during lecture times. You are allowed to bring a cheat sheet to every exam. This reference page is a single sheet, in which you can include hand-written annotations only, on both sides. Students will be notified of the contents prior to the exam. Make-up exams are given only in rare cases of documented events.
 
+The final exam for this course is scheduled for **Tuesday, December 22, 3:00 PM – 5:00 PM**. See the official [Final Exam Schedule](https://web.uri.edu/academic-calendars/final-exam-schedules/) for room assignment and any updates.
+
 ### Grading
 
 Coursework consists of lab attendance, programming assignments, weekly programming challenges, mastery-based assessments, and exams. Your final grade will be calculated according to the following table:
@@ -112,16 +112,20 @@ Discussions with others to understand general homework problems and class-relate
 
 ### Anti-Bias Syllabus Statement
 
-We respect the rights and dignity of each individual and group. We reject prejudice and intolerance, and we work to understand differences. We believe that equity and inclusion are critical components for campus community members to thrive. If you are a target or a witness of a bias incident, you are encouraged to submit a report to the URI Bias Response Team at www.uri.edu/brt. There you will also find people and resources to help.
+We respect the rights and dignity of each individual and group. We reject prejudice and intolerance, and we work to understand differences. We believe that equity and inclusion are critical components for campus community members to thrive. If you are a target or a witness of a bias incident, you are encouraged to submit a report to the URI Bias Resource Team at www.uri.edu/brt. There you will also find people and resources to help.
 
 
 ### Disability, Access, and Inclusion Services for Students Statement: 
 
-Your access in this course is important. Please send me your Disability, Access, and Inclusion (DAI) accommodation letter early in the semester so that we have adequate time to discuss and arrange your approved academic accommodations. If you have not yet established services through DAI, please contact them to engage in a confidential conversation about the process for requesting reasonable accommodations in the classroom. DAI can be reached by calling: 401-874-2098, visiting: web.uri.edu/disability, or emailing: dai@etal.uri.edu.
+Your access in this course is important. Please send me your Disability, Access, and Inclusion (DAI) accommodation letter early in the semester so that we have adequate time to discuss and arrange your approved academic accommodations. If you have not yet established services through DAI, please contact them to engage in a confidential conversation about the process for requesting reasonable accommodations in the classroom. DAI can be reached by calling: 401-874-2098, visiting: web.uri.edu/disability, or emailing: dai@uri.edu.
 
-### Religious Holidays
+### Viral Illness Precautions Statement
 
-It is the policy of the University of Rhode Island to accord students, on an individual basis, the opportunity to observe their traditional religious holidays. Students desiring to observe a holiday of special importance must provide written notification to each instructor.
+The University is committed to delivering its educational mission while protecting the health and safety of our community. Students who are experiencing symptoms of viral illness should NOT go to class/work. The Centers for Disease Control and Prevention (CDC) recommends that all people who are experiencing viral illness stay home and away from others until symptoms improve and they are fever-free (without medications) for 24 hours. They should take added precautions for the next 5 days.
+
+### Excused Absences
+
+Absences due to serious illness or traumatic loss, religious observances, military service, or participation in a university-sanctioned event are considered excused absences. Students are responsible for work missed during an excused absence but will not be penalized by grading or assignment/exam make-up policies. Students should notify faculty in advance of absences due to religious observance or university-sanctioned events, and as soon as possible for other absences. See University Manual sections 8.51.11-8.51.16 for details.
 
 ### Tentative Course Outline:
 
@@ -142,5 +146,5 @@ It is the policy of the University of Rhode Island to accord students, on an ind
 | Week 11 | Assignment - Assignment 4 <br>Lecture - Classes, Data Members and Methods (Encapsulation) <br> **Exam - Midterm Exam (weeks 6 to 10)** <br> Lab - Implementing Classes (source/headers), Arrays and Objects <br>  | [Lecture Slides]()<br>[Lecture Slides]()<br>[Lab](/labs/lab-10) | 
 | Week 12 | Lecture - Constructors  <br>Lecture - Dynamic Memory Allocation, Destructors <br> Lab - Developing a string Class (overloaded operators and copy constructors) <br> Reading - Savitch, Chapter 14 <br> | [Lecture Slides]()<br>[Lecture Slides]()<br>[Lab](/labs/lab-11)| 
 | Week 13 | 	Lecture - Class Inheritance <br> Lecture - Singly Linked Lists <br> Lab - STL Containers, read/write from files, and CLAs <br>  Reading - Savitch, Chapter 15 <br> | [Lecture Slides]()<br>[Lecture Slides]()<br>[Lab](/labs/lab-12) |
-| Week 14 | 	**Exam - Final Exam (cumulative with focus on weeks 11 to 14)** | None |
+| Week 14 | 	**Exam - Final Exam (cumulative with focus on weeks 11 to 14)** <br> Tuesday, Dec 22, 3:00p – 5:00p | [Final Exam Schedule](https://web.uri.edu/academic-calendars/final-exam-schedules/) |
 
