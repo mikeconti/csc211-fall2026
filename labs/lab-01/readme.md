@@ -4,7 +4,7 @@ Welcome to the first CSC 211 lab. Your goal for this lab will be to set up your 
 
 1. Ed Discussions Setup 
 2. Gradescope Setup 
-3. CS50 IDE  
+3. IDE Setup  
 	- Setup
 	- Basics 
 4. Command-Line Exploration 
@@ -41,38 +41,48 @@ Check your email for your Ed Discussions invitation. You should be able to regis
 Check your email for your Gradescope invitation. You should be able to register though that invite.
 
 
-# Part 3. CS50 IDE
 
-In this class you will need multiple tools in order to best succeed, including a bash terminal, a text editor with code highlighting, and a debugging interface. These tools, along with many others, are often packed together into what is called an **Integrated Development Environment**, or IDE. In particular we highly recommend using CS50 IDE for this class, since it is lightweight, fairly easy to use, and best supported by the TAs. Thus, we will discuss you two options for how to start using CS50 IDE.
+# Part 3. IDE Setup
 
-> CS50 IDE is a containerized application that runs on Docker.  Further details on: [Docker containers](https://www.docker.com/resources/what-container).
+In this class you will need multiple tools in order to best succeed, including a bash terminal, a text editor with code highlighting, and a debugging interface. These tools, along with many others, are often packed together into what is called an **Integrated Development Environment**, or IDE. For this class we strongly recommend installing **Visual Studio Code locally on your own computer**, with a real `g++` compiler. Below we cover that setup first, and then a browser-based fallback.
 
-## 3.1 IDE Options - Online vs Offline
+## 3.1 IDE Options - VS Code (Local) vs CS50 IDE Online
 
-You have two options for how you would like to install/use CS50 IDE, and you need choose only one. The first option is to use a free GitHub account to access the IDE from the internet, and the second is to install Docker to access it locally. Some pros and cons are as follows:
+**We recommend installing Visual Studio Code locally on your own computer**, using a real `g++` compiler (matching the Linux grading station). CS50 IDE Online is available as a fallback if you can't get VS Code working locally.
 
-**CS50 IDE Online**
+**Local VS Code (Recommended)**
+
+<table>
+	<tr><td>+</td><td>Uses your own system's resources</td></tr>
+	<tr><td>+</td><td>Compiles with a real g++, matching the Linux grading station</td></tr>
+	<tr><td>+</td><td>No CS50/Docker account or container overhead</td></tr>
+	<tr><td>+</td><td>A professional setup you'll likely keep using beyond this class</td></tr>
+	<tr><td>-</td><td>Slightly more setup than CS50 IDE Online</td></tr>
+</table>
+
+**CS50 IDE Online (Fallback)**
 
 <table>
 	<tr><td>+</td><td>Simple and easy setup</td></tr>
 	<tr><td>+</td><td>Can be accessed from any computer</td></tr>
 	<tr><td>+</td><td>Requires no installation on your system</td></tr>
-	<tr><td>+</td><td>Has shown to work more reliably than the offline option</td></tr>
 	<tr><td>-</td><td>Requires a (free) GitHub account</td></tr>
 	<tr><td>-</td><td>Requires an active internet connection</td></tr>
 </table>
 
-**CS50 IDE Offline**
+### 3.1.1 VS Code Setup (Recommended)
 
-<table>
-	<tr><td>+</td><td>Does not require signing up for any service</td></tr>
-	<tr><td>+</td><td>Is usable offline</td></tr>
-	<tr><td>+</td><td>Uses your own system's resources (better if you have a good computer and you want to write a more complex program)</td></tr>
-	<tr><td>-</td><td>Slightly more complex setup</td></tr>
-	<tr><td>-</td><td>Requires installation of Docker and (through Docker) the IDE</td></tr>
-</table>
+Pick the guide for your operating system:
 
-### 3.1.1 Online Option - Setup
+- **Windows:** use Visual Studio Code with a Linux (WSL) terminal, so your files stay on your normal Windows file system while you compile with a real Linux `g++`.
+  - 🎥 [Video walkthrough (Panopto)](https://uri.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0335e997-726f-4560-998d-b1ee010230cf&start=0)
+  - 📄 [Written guide: VS Code + WSL + g++ setup](vscode-wsl-gpp-setup.md)
+- **macOS:** no WSL-style split needed; your files and compiler already live in the same place.
+  - 📄 [Written guide: VS Code + g++ setup (macOS)](vscode-macos-gpp-setup.md)
+
+### 3.1.2 CS50 IDE Online Setup (Last Resort)
+
+Only use this option if you are unable to get VS Code working locally.
 
 >Note that the recommended browser for using the online option is [Google Chrome](https://www.google.com/chrome/)
 
@@ -84,14 +94,9 @@ The steps to set up the online version of CS50 IDE are as follows:
 4. Log in with you GitHub credentials.
 4. Your CS50 IDE will begin to load. This might take a minute if it's your first time accessing CS50 IDE Online, so please be patient.
 
-### 3.1.2 Offline Option - Setup
+### 3.1.3 Other IDE Options
+Some other IDE options, if you'd rather not use VS Code or CS50 IDE Online:
 
-If you choose to install the offline option (not recommended during this lab session), you can follow the instructions for setup [here](https://cs50.readthedocs.io/ide/offline/#).
-
-### 3.1.3 Other Options
-While CS50 IDE is strongly encouraged for this course, some other IDE options are:
-
-- [Visual Studio Code](https://code.visualstudio.com/)
 - [CLion](https://www.jetbrains.com/clion/) (Free with student id)
 - [QT C++](https://www.qt.io/developers/)
 
@@ -102,7 +107,7 @@ Now that your IDE is all set up, take some time and get to know it! Read through
 
 :white_check_mark: Question 1: Describe some major differences between using a local or online version of the IDE.
 
-:white_check_mark: Question 2: Where are your files stored if using the online version vs the offline version?
+:white_check_mark: Question 2: Where are your files stored if using the local version vs the online version?
 
 :white_check_mark: Question 3: What are the PC and Mac hotkeys to create a new file?
 
