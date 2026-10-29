@@ -18,7 +18,7 @@
 | Day | Staff Member |  Time |Location |
 | --- | --- | --- | --- |
 |Monday |   Ethan |   2:00p - 3:00p | Tyler Hall (Tyler 3rd Floor) |
-|Tuesday |  Mike |  2:45p - 3:45p | Tyler 132 |
+|Tuesday |  Mike |  2:30p - 3:30p | Tyler 132 |
 |Wednesday   |  Christiana <br> Ethan <br> Ardenis | 12:00p - 2:00p <br> 2:00p - 3:00p <br> 5:00p - 6:00p | Tyler Hall (Tyler 3rd Floor) <br> Tyler Hall (Tyler 3rd Floor) <br> Tyler Hall (Tyler 3rd Floor) |
 |Thursday   |  Christiana <br> Ardenis | 3:00p - 4:00p <br> 4:00p - 6:00p | Tyler Hall (Tyler 3rd Floor) <br> Tyler Hall (Tyler 3rd Floor) |
 |Friday    |   Ethan |  10:30a - 11:30a | Tyler Hall (Tyler 3rd Floor) |
