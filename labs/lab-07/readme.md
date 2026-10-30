@@ -5,7 +5,7 @@ Welcome to CSC 211 Lab 07. Your goal for this lab is to gain a solid understandi
 1. C-style Pointers<br>
 2. Pointers and Arrays<br>
 3. Multidimensional Arrays<br>
-4. Pointers to Pointers<br>
+4. Putting It Together<br>
 5. Submission<br>
 
 > **Tracing tip:** For every "what does this output?" question, draw a box for each variable, write down its value, and draw an arrow for each pointer. Update the drawing line by line. Do not just run the code. Predict first, then verify in your IDE.
@@ -354,34 +354,11 @@ int main() {
 
 :white_check_mark: 17. Write a function *sumDiagonal* that accepts a square 2D int array (using the `arrSize` constant from above) and returns the sum of the main diagonal (`arr[0][0]`, `arr[1][1]`, ...). Then write a void function *transpose* that swaps `arr[i][j]` with `arr[j][i]` in place. Test both on a 4x4 array that you fill with the values 1 through 16, and print the array before and after transposing.
 
-# Part 4. Pointers to Pointers
+# Part 4. Putting It Together
 
-A pointer is a variable too, so it has its own address, and we can store that address in another pointer. An `int**` is a "pointer to a pointer to an int". Each `*` you apply peels off one level of indirection: given `int **pp`, `pp` is the address of a pointer, `*pp` is that pointer, and `**pp` is the int it points to.
+:white_check_mark: 18. Write a program that accepts a number of data points *n* (assume no more than 100), stores them into a fixed-size array, and uses a pointer *max* that will point to the largest value. Print the largest value by dereferencing *max*, and also print its index by subtracting the pointer to the start of the array from *max*.
 
-:white_check_mark: 18. What does the following code output? Draw the memory diagram after the line `*pp = &y;`.
-
-```c++
-#include <iostream>
-
-int main() {
-    int x = 5;
-    int y = 8;
-    int *p = &x;
-    int **pp = &p;
-
-    **pp = 6;
-    *pp = &y;
-    **pp += 2;
-    *p = *p * 2;
-
-    std::cout << x << " " << y << " " << *p << std::endl;
-    return 0;
-}
-```
-
-:white_check_mark: 19. Write a program that accepts a number of data points *n* (assume no more than 100), stores them into a fixed-size array, and uses a pointer *max* that will point to the largest value. Print the largest value by dereferencing *max*, and also print its index by subtracting the pointer to the start of the array from *max*.
-
-:white_check_mark: 20. Create a void function called *findStats* that will calculate the mean, median, and mode of an array of ints of size *n*. Since a function cannot return three values directly, accept three **pointer parameters** (`double* mean`, `double* median`, `int* mode`) and store the results through them. Print all three in main. *Hint: sort a copy of the array first so that the median and mode are easier to find.*
+:white_check_mark: 19. Create a void function called *findStats* that will calculate the mean, median, and mode of an array of ints of size *n*. Since a function cannot return three values directly, accept three **pointer parameters** (`double* mean`, `double* median`, `int* mode`) and store the results through them. Print all three in main. *Hint: sort a copy of the array first so that the median and mode are easier to find.*
 
 # Part 5. Submission
 
