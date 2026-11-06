@@ -12,11 +12,11 @@ void diceRolls(int dice);
 
 //create vector and call driver function
 void diceRolls(int dice) { // dice = 2
-    int arr [20];
-    diceRollHelper(dice, arr);
+    std::vector<int> chosen; // chosen = {}
+    diceRollHelper(dice, chosen);
 }
 
-void diceRollHelper(int dice, int chosen []) {
+void diceRollHelper(int dice, std::vector<int> chosen) {
 
 // Base Case
 if (dice == 0) {
@@ -45,7 +45,7 @@ else {
 
 int main(){
 
-    diceRolls(3);
+    diceRolls(5);
 
 return 0;
 }
