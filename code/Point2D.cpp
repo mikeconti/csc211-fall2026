@@ -2,6 +2,15 @@
 #include <string>
 #include <cmath>
 
+// Modify Point2D.cpp (on GitHub at ~/code) so it includes the following:
+// Default Constructor
+// Parameterized Constructor 
+
+// Once working, break it up into:
+// Class file (Point2D.cpp)
+// Header/Interface file (Point2D.h)
+// Driver (main.cpp)
+
 class Point {
     int x;
     int y;
