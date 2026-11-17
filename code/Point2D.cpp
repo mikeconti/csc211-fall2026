@@ -2,13 +2,13 @@
 #include <string>
 #include <cmath>
 
-// Modify Point2D.cpp (on GitHub at ~/code) so it includes the following:
+// Modify Point3D.cpp (on GitHub at ~/code) so it includes the following:
 // Default Constructor
 // Parameterized Constructor 
 
 // Once working, break it up into:
-// Class file (Point2D.cpp)
-// Header/Interface file (Point2D.h)
+// Class file (Point3D.cpp)
+// Header/Interface file (Point3D.h)
 // Driver (main.cpp)
 
 class Point {
@@ -18,8 +18,10 @@ class Point {
     
     public:
         // Default constructor  //TODO 
+        Point();
 
         //Constructs a point object with X, Y, Z properties //TODO
+        Point(int thisX, int thisY, int thisZ);
 
         //Sets the X, Y, and Z properties of a point Object
         void setX(int someX);
@@ -40,7 +42,20 @@ class Point {
 //Constructs a point object with X, Y, Z properties
 //TODO 
 
+// Default constructor  //TODO 
+Point::Point(){
+    x = 0;
+    y = 0;
+    z = 0;
+}
 
+//Constructs a point object with X, Y, Z properties //TODO
+Point::Point(int thisX, int thisY, int thisZ){
+ x = thisX;
+ y = thisY;
+ z = thisZ;
+
+}
 
 //Sets the X, Y, and Z properties of a point Object
 void Point::setX(int someX){
@@ -78,8 +93,8 @@ int main()
     Point myPt;
 
     myPt.setX(10);
-    myPt.setX(20);
-    myPt.setX(30);
+    myPt.setY(20);
+    myPt.setZ(30);
 
     Point myPt2(3, 10, 15);
 
